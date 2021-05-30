@@ -1,0 +1,45 @@
+.Main,
+.challenge-3,
+.Container {
+    text-align: center;
+    border: 2px solid black;
+    width: 70%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: dimgray;
+}
+
+#age {
+    color: teal;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+}
+
+.divs {
+    padding: 10px;
+    display: flex;
+    border-top: 2px solid black;
+    justify-content: space-around;
+}
+
+.pictures,
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pictures img {
+    display: flex;
+    margin: 10px;
+    box-shadow: 0px 10px 50px black;
+}
+
+.images img:hover {
+    box-shadow: 0px 10px 50px blue;
+}
